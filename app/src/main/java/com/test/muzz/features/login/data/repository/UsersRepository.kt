@@ -11,6 +11,4 @@ constructor(
     private val usersDao: UsersDao,
 ) {
     fun getUser(userName: String) = usersDao.getUser(userName)
-
-    fun getAllUsers(): Flow<List<User>> = usersDao.getAllUsers()
 }

@@ -18,8 +18,6 @@ constructor(
     private val muzzInteractor: MuzzInteractor,
 ) : ViewModel() {
     private val _muzzState = MutableStateFlow<MuzzResult>(MuzzResult.Loading)
-    val muzzState: StateFlow<MuzzResult> = _muzzState
-
     init {
         getMuzz()
     }

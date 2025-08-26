@@ -75,9 +75,10 @@ fun LoginScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
-            text = "Login",
+            text = "Where Muslims Marry",
             style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier.padding(bottom = 32.dp),
+            color = MaterialTheme.colorScheme.primary,
         )
         Surface(
             modifier =
@@ -86,6 +87,8 @@ fun LoginScreen(
                 .padding(horizontal = 16.dp),
             shape = RoundedCornerShape(8.dp),
             shadowElevation = 4.dp,
+            color = MaterialTheme.colorScheme.background,
+            contentColor = MaterialTheme.colorScheme.onBackground,
         ) {
             Column(
                 modifier = Modifier.padding(16.dp),

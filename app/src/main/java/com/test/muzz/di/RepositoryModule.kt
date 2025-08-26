@@ -3,6 +3,8 @@ package com.test.muzz.di
 import com.test.muzz.features.login.data.dao.UsersDao
 import com.test.muzz.features.login.data.repository.UsersRepository
 import com.test.muzz.features.muzz.data.dao.MuzzDao
+import com.test.muzz.features.muzz.data.model.FakeProfileRepository
+import com.test.muzz.features.muzz.data.model.ProfileRepository
 import com.test.muzz.features.muzz.data.repository.MuzzRepository
 import dagger.Module
 import dagger.Provides
@@ -20,4 +22,8 @@ object RepositoryModule {
     @Provides
     @Singleton
     fun provideMuzzRepository(muzzDao: MuzzDao): MuzzRepository = MuzzRepository(muzzDao)
+
+    @Provides
+    @Singleton
+    fun provideProfileRepository(): ProfileRepository = FakeProfileRepository()
 }
