@@ -1,5 +1,5 @@
 include(":app")
-rootProject.name = "News"
+rootProject.name = "Muzz"
 
 pluginManagement {
     repositories {

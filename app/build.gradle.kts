@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.test.news"
+    namespace = "com.test.muzz"
 }
 
 dependencies {
