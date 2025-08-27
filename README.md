@@ -1,13 +1,11 @@
 # Muzz QA Technical Test
-## Congratulations, you have reached the next stage which is solving a Muzz practical test.
-##### Please create your own repo and share the solution with us
+## Congratulations, you have reached the next stage which is automating our regression tests.
+##### Please create your own repo and share the solution with us.
 
 ### Description
-During the test we'd like you to imagine yourself as a member of our team, which has a collective goal of getting our sprint tasks completed.
-
 Let’s start!
 
-We are in the middle of the sprint and the following tasks were just moved to the QA testing column on our board:
+We are in the middle of the sprint and the following tasks were just moved to the QA testing column on our board, Manual team have tested and now want Automation to automate the following scenarios:
 
 ##
 ### 1 - As a user I want to log in to the app
@@ -34,7 +32,7 @@ Then - User is taken to the discover profiles screen
 
 #### Scenario 4 - User opens app next time (when previously logged in)
 
-Given -The user opens app next time (when previously logged in)
+Given - The user opens app next time (when previously logged in)
 
 Then - User is taken straight to the discover screen
 
@@ -58,13 +56,13 @@ When - There is no internet connection
 
 Then - “Failed to profiles” error message is displayed with a Retry button
 
-#### Scenario 3 - User is liked
+#### Scenario 3 - liking profiles
 
 Given - The dating profiles are successfully loaded on the screen
 
-When - The user likes one of the profiles
+When - The user likes one or more of the profiles
 
-Then - User is navigated to the profile
+Then - after 5 lkes/passes, the user should see the correct number of profiles liked
 
 #### Login credentials:
 #### user: user
