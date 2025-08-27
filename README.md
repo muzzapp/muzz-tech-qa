@@ -82,6 +82,8 @@ We expect that these functions will be tested both manually and automatically by
 
 * As a note, we won't consider any automation task submission created with a test recorder.
 
+* Tests should pass even if device locale is changed i.e. tests in French
+
 At Muzz we highly appreciate good communication at all times. If you have any questions, please don’t hesitate to ask us :)
 
 ### Next Steps
