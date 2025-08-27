@@ -147,7 +147,6 @@ private fun ProfileCard(
         Text(
             text = profile.age,
             style = MaterialTheme.typography.labelLarge,
-            modifier = Modifier.testTag("profile_age")
         )
         Spacer(Modifier.height(4.dp))
         Text(
