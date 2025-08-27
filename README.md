@@ -1,5 +1,5 @@
 # Muzz QA Technical Test
-## Congratulations, you have reached the next stage which is automating our regression tests.
+## Congratulations, you have reached the next stage which is a technical test.
 ##### Please create your own repo and share the solution with us.
 
 ### Description
