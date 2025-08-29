@@ -140,8 +140,13 @@ private fun ProfileCard(
         Spacer(Modifier.height(12.dp))
         Text(
             text = profile.name,
-            style = MaterialTheme.typography.headlineSmall,
+            style = MaterialTheme.typography.headlineMedium,
             modifier = Modifier.testTag("profile_name")
+        )
+        Spacer(Modifier.height(4.dp))
+        Text(
+            text = profile.age,
+            style = MaterialTheme.typography.labelLarge,
         )
         Spacer(Modifier.height(4.dp))
         Text(
