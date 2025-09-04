@@ -99,7 +99,6 @@ fun ProfilesScreen(
                         onClick = { viewModel.pass() },
                         modifier = Modifier
                             .weight(1f)
-                            .testTag("button_pass")
                             .semantics { contentDescription = "Pass Profile" }
                     ) { Text("Pass") }
 
@@ -107,7 +106,6 @@ fun ProfilesScreen(
                         onClick = { viewModel.like() },
                         modifier = Modifier
                             .weight(1f)
-                            .testTag("button_like")
                             .semantics { contentDescription = "Like Profile" }
                     ) { Text("Like") }
                 }
@@ -153,7 +151,6 @@ private fun ProfileCard(
             text = "$index of $total",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.testTag("profile_counter")
         )
     }
 }
